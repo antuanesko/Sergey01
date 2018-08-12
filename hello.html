@@ -2,7 +2,13 @@
 <html>
 <head>
 	<title>Roman History</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
+		.container {display: flex; flex-wrap: wrap;}
+		.container > div {background-color: springgreen; font-size: 16px; margin: 5px; padding: 10px; width: 150px;}
+		@media (min-width: 700px) {h1::before {content: "Roman Emperors";}} print {.screen-only {display: none;}} 
+			body {background-color: pink}
+		@media (max-width: 699px) {h1::before {content: "Emperors";}}
 		button {width: 200px; height: 50px; font-size: 16px; background-color: green;}
 		button:hover {background-color: orange}
 		p::selection {color: red; background-color: yellow;}
@@ -29,7 +35,7 @@
 			<option value="Russia">
 		</datalist>
 	</div>
-	<h1> Roman Emperors </h1>
+	<h1></h1>
 	<h2> Great Antic Commanders </h2> 
 	<ul>
 		<li><a href="#section1"> Maharbal</a></li>
@@ -55,12 +61,13 @@
 			<td>42-18 B.C.</td>
 		</tr>
 
-	<h1>Veni Vedi Vici</h1>
+	<h3>Veni Vedi Vici</h3>
 	<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vexilloid_of_the_Roman_Empire.svg/245px-Vexilloid_of_the_Roman_Empire.svg.png width="20%" align="middle">
 	<form>
 		<input type="text" placeholder="Full Name" name="name">
 		<button>Submit!</button>
 	</form>
+	<p class="screen-only">this paragraph does not print
 	<h2 id="section1">Maharbal</h2>
 	<p>	Maharbal (fl. 3rd century BC) was Hannibal's chief cavalry commander and second-in-command during the Second Punic War. He was often critical to the success of the side of Carthage over Rome. Throughout his Italian campaign Hannibal maintained an advantage in mounted soldiers and thus relied upon them and Maharbal to give himself a sizeable edge. Maharbal is best known for what he possibly said during a conversation with Hannibal immediately following the Battle of Cannae. According to Livy, Maharbal expressed an interest in immediately marching to Rome. Hannibal responded by saying "I commend your zeal, but I need time to weigh the plan which you propose." "Maharbal then replied, "Assuredly, no one man has been blessed with all God's gifts. You, Hannibal, know how to gain a victory; you do not know how to use it."[2] The Latin for the last sentence of the conversation is: "Vincere scis, Hannibal; victoria uti nescis."
 	</p>
@@ -70,5 +77,23 @@
 	<h2 id="section3">Hadrianus</h2>
 	<p> Hadrian (Latin: Publius Aelius Hadrianus Augustus; 24 January 76 – 10 July 138 AD) was Roman emperor from 117 to 138.[note 1] He was born Publius Aelius Hadrianus, probably at Italica, near Santiponce (in modern-day Spain), into a Hispano-Roman family. His father was of senatorial rank, and was a first cousin of the emperor Trajan. Early in Hadrian's career, before Trajan became emperor, he married Trajan's grand-niece Vibia Sabina, possibly at the behest of Trajan's wife, Pompeia Plotina. Plotina and Trajan's close friend and adviser Licinius Sura were well disposed towards Hadrian. When Trajan died, his widow claimed that immediately before his death, he had nominated Hadrian as emperor.
 	</p>
+	<div class="container">
+		<div> A. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> B. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> C. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> D. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> E. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> F. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> G. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+		<div> H. Gnaeus Pompeius Magnus[2] 29 September 106 BC – 28 September 48 BC),[1] usually known in English as Pompey /ˈpɒmpiː/ or Pompey the Great,[3] was a military and political leader of the late Roman Republic. He came from a wealthy Italian provincial background, and his father had been the first to establish the family among the Roman nobility. 
+		</div>
+	</div>
 </body>
 </html>
