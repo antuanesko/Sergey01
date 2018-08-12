@@ -3,16 +3,40 @@
 <head>
 	<title>Roman History</title>
 	<style>
+		button {width: 200px; height: 50px; font-size: 16px; background-color: green;}
+		button:hover {background-color: orange}
+		p::selection {color: red; background-color: yellow;}
+		a::before {content: "\21d2 Click here: "; font-weight: bold}
 		table {border: 2px solid black;}
 		th,td {border: 1px solid black; padding: 5px; width: 40%; text-align: center;}
 		th {background-color: lightgrey}
-		div {background-color: teal; width: 150px; height: 30px; padding: 40px; margin: 10px;font-size: 28px}
+		div {padding: 40px; margin: 10px;font-size: 14px}
 		h1 {color:#880aa8; text-align: center; font-family: Arial, sans-serif; font-size: 28px; font-weight: bold} 
 	</style>
 </head>
 <body>
-	<div>Ave Ceasar!</div>
+	<div>
+		Favorite house?
+		<input name="color" type="radio" value="red"> Julius
+		<input name="color" type="radio" value="blue"> Bruttus
+		<input name="color" type="radio" value="green"> Scipius
+	</div>
+	<div>
+		<input name="country" list="countries" placeholder="Country">
+		<datalist id="countries">
+			<option value="Brazil">
+			<option value="Italy">
+			<option value="Russia">
+		</datalist>
+	</div>
 	<h1> Roman Emperors </h1>
+	<h2> Great Antic Commanders </h2> 
+	<ul>
+		<li><a href="#section1"> Maharbal</a></li>
+		<li><a href="#section2"> Marcus Aurelius</a></li>
+		<li><a href="#section3"> Hadrianus</a></li>
+	</ul>>
+
 	<a href="https://en.wikipedia.org/wiki/Roman_Empire">Want to learn more??</a>
 	<table>
 		<tr>
@@ -32,9 +56,19 @@
 		</tr>
 
 	<h1>Veni Vedi Vici</h1>
-	<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vexilloid_of_the_Roman_Empire.svg/245px-Vexilloid_of_the_Roman_Empire.svg.png width="20%">
+	<img src = https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vexilloid_of_the_Roman_Empire.svg/245px-Vexilloid_of_the_Roman_Empire.svg.png width="20%" align="middle">
 	<form>
 		<input type="text" placeholder="Full Name" name="name">
 		<button>Submit!</button>
+	</form>
+	<h2 id="section1">Maharbal</h2>
+	<p>	Maharbal (fl. 3rd century BC) was Hannibal's chief cavalry commander and second-in-command during the Second Punic War. He was often critical to the success of the side of Carthage over Rome. Throughout his Italian campaign Hannibal maintained an advantage in mounted soldiers and thus relied upon them and Maharbal to give himself a sizeable edge. Maharbal is best known for what he possibly said during a conversation with Hannibal immediately following the Battle of Cannae. According to Livy, Maharbal expressed an interest in immediately marching to Rome. Hannibal responded by saying "I commend your zeal, but I need time to weigh the plan which you propose." "Maharbal then replied, "Assuredly, no one man has been blessed with all God's gifts. You, Hannibal, know how to gain a victory; you do not know how to use it."[2] The Latin for the last sentence of the conversation is: "Vincere scis, Hannibal; victoria uti nescis."
+	</p>
+	<h2 id="section2">Marcus Aurelius</h2>
+	<p> Marcus Aurelius (Latin: Marcus Aurelius Antoninus Augustus; 26 April 121 – 17 March 180 AD) was Roman emperor from 161 to 180. He ruled with his adoptive brother, Lucius Verus, until Verus' death in 169, and with his son, Commodus, from 177. He was the last of the so-called Five Good Emperors.
+	</p>
+	<h2 id="section3">Hadrianus</h2>
+	<p> Hadrian (Latin: Publius Aelius Hadrianus Augustus; 24 January 76 – 10 July 138 AD) was Roman emperor from 117 to 138.[note 1] He was born Publius Aelius Hadrianus, probably at Italica, near Santiponce (in modern-day Spain), into a Hispano-Roman family. His father was of senatorial rank, and was a first cousin of the emperor Trajan. Early in Hadrian's career, before Trajan became emperor, he married Trajan's grand-niece Vibia Sabina, possibly at the behest of Trajan's wife, Pompeia Plotina. Plotina and Trajan's close friend and adviser Licinius Sura were well disposed towards Hadrian. When Trajan died, his widow claimed that immediately before his death, he had nominated Hadrian as emperor.
+	</p>
 </body>
 </html>
